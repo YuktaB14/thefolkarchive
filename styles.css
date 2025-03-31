@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+@font-face {
+    font-family: 'Anaktoria';
+    src: url('fonts/Anaktoria/Anaktoria.ttf');
+}
+
+body {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #b63e22;
+    color: #fffae8;
+}
+
+h1 {
+    font-family: 'Anaktoria', serif;
+    font-size: 8rem;
+    color: #d9a441;
+}
+
+.container {
+    padding-top: 5rem; /* Adds padding to the top of the page */
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+/* Ensures the image scales based on the height of the left content */
+.image-container img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain; /* Ensures proper scaling */
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.image-credit {
+    font-size: 0.9rem;
+    color: #3a2f2a; /* Bootstrap's muted color */
+}
