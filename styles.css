@@ -24,7 +24,7 @@ h1 {
 }
 
 .lead {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 /* Ensures the image scales based on the height of the left content */
@@ -44,4 +44,26 @@ h1 {
 .image-credit {
     font-size: 0.9rem;
     color: #3a2f2a; /* Bootstrap's muted color */
+}
+
+.seperator {
+    border: none; 
+    height: 2px; 
+    background-color: #d9a441; 
+    margin: 40px 0;
+}
+
+.introduction {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.para {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#map {
+    width: 750px;
+    height: 500px;
 }
