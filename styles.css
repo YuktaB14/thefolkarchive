@@ -19,6 +19,14 @@ h1 {
     color: #d9a441;
 }
 
+h2 {
+    font-family: 'Anaktoria', serif;
+    font-size: 3rem;
+    color: #fffae8;
+    margin-top: 20px;
+    padding-left: 4rem;
+}
+
 .container {
     padding-top: 5rem; /* Adds padding to the top of the page */
 }
@@ -53,17 +61,28 @@ h1 {
     margin: 40px 0;
 }
 
-.introduction {
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
 .para {
     font-size: 1.5rem;
     line-height: 1.5;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 #map {
     width: 750px;
     height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+details {
+    background: #b63e22;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
